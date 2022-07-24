@@ -1,6 +1,6 @@
 const mongoDB = require('mongoose');
 
-var URL = 'mongodb+srv://hoandinh:hoandinh@cluster0.8mwrx.mongodb.net/?retryWrites=true&w=majority'
+var URL = ':>>>'
 var Connect = () => {
    mongoDB.connect(URL , {
    useNewUrlParser: true,
